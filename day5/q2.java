@@ -21,11 +21,7 @@ package day5;
 
 	        System.out.print("Enter second number: ");
 	        int num2 = sc.nextInt();
-
-	       
 	        int[] result = calc.findQuotientAndRemainder(num1, num2);
-
-	        // Printing results
 	        System.out.println("Quotient = " + result[0]);
 	        System.out.println("Remainder = " + result[1]);
 
